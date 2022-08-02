@@ -7,18 +7,12 @@ Open 3 Terminals at the Folder
 ### First Terminal 
 `npx hardhat node`
 
-<br>
-
 ### Second Terminal 
 `npx hardhat run scripts/deploy.js --network mumbai`
 
 From here copy the NFT address and NFTMarket Address and paste it into the **config.js**.
 
-<br>
-
 ### Third Terminal 
 `npm run dev` 
-
-<br>
 
 Make sure your metamask wallet is configured for the mumbai testnet.

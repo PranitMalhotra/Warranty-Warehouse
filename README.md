@@ -1,13 +1,32 @@
-# Sample Hardhat Project
+# NFT MARKETPLACE on POLYGON BLOCKCHAIN 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## To Run the Project 
 
-Try running some of the following tasks:
+Open 3 Terminals at the Folder
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+### First Terminal 
+`npx hardhat node`
+
+<img src="screenshots/T1.png"/>
+
+<br>
+
+### Second Terminal 
+`npx hardhat run scripts/deploy.js --network localhost`
+
+<img src="screenshots/T2(a).png"/>
+
+From here copy the NFT address and NFTMarket Address and paste it into the **config.js**.
+
+<img src="screenshots/T2(b).png"/>
+
+<br>
+
+### Third Terminal 
+`npm run dev` 
+
+<img src="screenshots/T3.png"/>
+
+<br>
+
+Then Open Your **Localhost** in the Browser
